@@ -1,0 +1,24 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Segredos
+.env
+.env.*
+*.pem
+*.key
+
+# Dependências
+node_modules/
+venv/
+__pycache__/
+
+# Build
+dist/
+build/
+*.log
+
+# MacOS
+.DS_Store
