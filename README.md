@@ -1,7 +1,7 @@
 # Nome do Projeto
 
 ## Visão Geral
-> Descreva em 2-3 frases o que este projeto faz.
+> Tentativa de criar o jogo Pacman no java usando MVC
 
 ## Como Executar
 ```bash
@@ -10,6 +10,7 @@
 
 ## Tecnologias
 - Java 25
+- Maven
 
 ## Estrutura de Pastas
 > Preencha após estruturar o projeto.
