@@ -18,6 +18,11 @@ public class GamePanel extends JPanel {
     }
 
     @Override
+    public java.awt.Dimension getPreferredSize() {
+        return new java.awt.Dimension(19 * TILE_SIZE, 21 * TILE_SIZE);
+    }
+
+    @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         draw(g);
