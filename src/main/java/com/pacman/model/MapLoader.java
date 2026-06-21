@@ -35,6 +35,7 @@ public final class MapLoader {
         return switch (tile) {
             case 'X' -> new Block.Wall(position);
             case 'O' -> new Block.Food(position);
+            case '#' -> new Block.PowerUp(position);
             case 'P' -> new Block.PacMan(position, Direction.RIGHT);
             case 'r' -> new Block.Ghost(position, Direction.LEFT, GhostType.BLINKY);
             case 'b' -> new Block.Ghost(position, Direction.UP, GhostType.INKY);
