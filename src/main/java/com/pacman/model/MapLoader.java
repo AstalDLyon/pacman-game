@@ -25,7 +25,10 @@ public final class MapLoader {
                 for (int col = 0; col < line.length(); col++) {
                     char tile = line.charAt(col);
                     Position position = new Position(col, row);
-                    blocks.add(parseTile(tile, position));
+                    Block block = parseTile(tile, position);
+                    if (block != null) {
+                        blocks.add(block);
+                    }
                 }
             }
         }
